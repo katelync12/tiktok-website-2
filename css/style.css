@@ -2,7 +2,8 @@ html, body {
     overflow-x: hidden;
   }
   body {
-    position: relative
+    position: relative;
+    width: 100%;
   }
 
 .body {
