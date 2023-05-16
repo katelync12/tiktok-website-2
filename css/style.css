@@ -598,13 +598,13 @@
     margin-bottom: -50px;
   }
   
-  @media (min-width: 600px) {
+  @media (min-width: 875px) {
     .smaller-text {
       display: none;
     }
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 875px) {
     .img-home {
       display: none;
     }
