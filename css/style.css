@@ -362,10 +362,13 @@
   
   .parallax-container2 {
     padding: 6rem 0;
-    background-image: url("../img/biology.jpg");
     gap: 1.6em;
     width: 100%;
     height: auto;
+  }
+
+  .bio-image {
+    background-image: url("../img/biology.jpg");
   }
   
   .buffer {
@@ -595,12 +598,6 @@
     margin-bottom: -50px;
   }
   
-  @media (min-width: 875px) {
-    .smaller-text {
-      display: none;
-    }
-  }
-  
   @media (max-width: 875px) {
     .img-home {
       display: none;
@@ -625,11 +622,13 @@
     
     .parallax-container2 {
       padding: 6rem 0;
-      background-image: url("../img/biology.jpg");
       gap: 1.6em;
-      
       width: 100%;
       height: auto;
+    }
+
+    .bio-image {
+        background-image: url("../img/biology.jpg");
     }
   
     .home-subtext {
@@ -639,8 +638,8 @@
       margin-top: 35px;
     }
   
-    .bigger-text {
-      display: none;
+    .home-heading {
+      font-size: 4em;
     }
   
     .body {
