@@ -1,0 +1,658 @@
+.body {
+    background-color: #222433;
+    overflow-x: hidden;
+  }
+  
+  /* Starts styling the order forms */
+  
+  #contact-form {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+  }
+  
+  
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */ 
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 16px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+  
+  /* Style inputs with type="email", select elements and textareas */
+  input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+    
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #313356;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #54578d;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  
+  /* Ends styling for the order forms */
+  
+  /* Starts styling for the nav */
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #54578d;
+    color: white;
+  }
+  
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a::before {
+    text-decoration: none;
+  }
+  a::after {
+    text-decoration: none;
+  }
+  
+  /* header   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
+  
+  .header {
+    position: fixed;
+    width: 80%;
+    z-index: 3;
+    padding: 20px 0;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px 4px 20px;
+    text-decoration: none;
+  }
+  
+  .header .logo {
+    color: white;
+    display: block;
+    float: left;
+    font-size: 1.4em;
+    padding: 0px 0px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 15px 15px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* section */
+  
+  .section {
+    overflow: hidden;
+    margin: auto;
+    max-width: 1400px;
+  }
+  
+  .section a {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+  
+  .section a img {
+    width: 100%;
+    display: block;
+  }
+  
+  .section a span {
+    color: #fff;
+    position: absolute;
+    font-size: 2em;
+    text-shadow: 1px 1px 0 #000;
+  }
+  
+  .section-split a span {
+    display: none;
+  }
+  
+  .section-split a:hover span {
+    display: block;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 875px) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 0px 0px 0px 0px;
+      margin-left: 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  
+    /* - link under - */
+  
+  .link-arrow:after {
+      content: '';
+      background-size: 100% 100%;
+      width: 16px;
+      height: 12px;
+      position: absolute;
+      top: 5px;
+      right: -28px;
+      -webkit-transition: all .4s cubic-bezier(.35, 1, .33, 1);
+      transition: all .4s cubic-bezier(.35, 1, .33, 1)
+    }
+    
+    .link-arrow:hover:after {
+      right: -35px
+    }
+    
+    .link-arrow.link-arrow-white:after {
+      background-size: 100% 100%
+    }
+    
+    .link-arrow-hover:after {
+      right: -35px
+    }
+    
+    .link {
+      display: inline-block;
+      position: relative;
+      border: none;
+      padding-bottom: 4px;
+      font-weight: 400;
+      font-size: 1.15em
+    }
+    
+    .link:active,
+    .link:focus,
+    .link:hover {
+      outline: 0;
+    }
+    
+    .link:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background: #000;
+      width: 0;
+      height: 2px;
+      -webkit-transition: all .4s cubic-bezier(.35, 1, .33, 1);
+      transition: all .4s cubic-bezier(.35, 1, .33, 1)
+    }
+    
+    .link:hover {
+      color: white;
+    }
+    
+    .link:hover:before {
+      width: 100%
+    }
+    
+    .link-theme:before {
+      background: #c36dce
+    }
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .section-split a {
+      width: 50%;
+    }
+  }
+  
+  .background-nav {
+    background-color: #18191F;
+  }
+  
+  
+  @media (max-width: 875px) {
+    .nav-color:hover {
+      text-decoration: none;
+      color: #c197eb; 
+    }
+  }
+  
+  .full-width-div {
+    position: absolute;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* ends styling for the nav */
+  
+  .parallax-container {
+    display: flex;
+    min-height: 85vh;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    row-gap: 4rem;
+    text-align: center;
+  }
+  
+  .parallax-container2 {
+    padding: 6rem 0;
+    background-image: url("../img/biology.jpg");
+    gap: 1.6em;
+    width: 100%;
+    height: auto;
+  }
+  
+  .buffer {
+    width: 100%;
+    min-height: 60vh;
+    background-color: #222433;
+  }
+  
+  .home-btn {
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    width:150px;
+    height: 50px;
+    border-radius: 10em;
+    border: 2px solid black;
+    outline: none;
+    background: #ddd;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+  
+  .home-btn:hover {
+    border: 2px solid #c36dce;
+  }
+  
+  .home-heading {
+    color: white;
+    font-size: 7.8em;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+  }
+  
+  @media (max-width: 875px) {
+    .home-heading {
+      font-size: 5em;
+    }
+  }
+  
+  .home-page-text {
+    font-size: 2em;
+    color: white;
+    margin: 2em;
+  }
+  
+  .home-subtext {
+    font-size: 2em;
+    color: white;
+    justify-content: left; 
+    margin-top: 15px;
+  }
+  
+  .footer {
+    min-height: 30vh;
+    background-color: #18191F;
+  }
+  .footer-btn {
+    display: block;
+    background: none;
+    color: #c36dce;
+  
+  }
+  
+  /* Styles indiv car page*/
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+  
+  .gallery {
+    display: flex;
+    margin: 10px auto;
+    max-width: 600px;
+    position: relative;
+    padding-top: 66.6666666667%;
+  }
+  @media screen and (min-width: 600px) {
+    .gallery {
+      padding-top: 70%;
+    }
+  }
+  
+  .gallery__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+  }
+  
+  .gallery__thumb {
+    padding-top: 6px;
+    margin: 6px;
+    display: block;
+  }
+  .gallery__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .gallery__selector:checked + .gallery__img {
+    opacity: 1;
+  }
+  .gallery__selector:checked ~ .gallery__thumb > img {
+    box-shadow: 0 0 0 3px #6e49f3;
+  }
+  
+  .gallery__item:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+    background-blend-mode: multiply;
+  }
+  
+  .car-gallery {
+    margin-top: 100px;
+  }
+  
+  /* End of styling indiv car page */
+  
+  /* Start of styling fleet images */
+  
+  .fleet {
+    margin-top: 100px;
+  }
+  
+  .fleet-text {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  
+  .fleet-text:hover {
+    color: #c197eb;
+  }
+  
+  .car-box {
+    margin-bottom: 15px;
+  }
+  
+  .rounded:hover {
+    opacity: 0.8;
+  }
+  
+  .book-btn {
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    width:150px;
+    height: 50px;
+    border-radius: 10em;
+    border: 2px solid black;
+    outline: none;
+    background: #dddddd;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .book-btn:hover {
+    background: #c7d9f6;
+  }
+  /* End of styling fleet images */
+  
+  .home-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .home-smalltxt {
+    margin-top: 15px;
+    color: white;
+    font-size: 1.4em;
+  }
+  
+  .home-smalllist {
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  .first-row {
+    margin-top: 60px;
+  }
+  
+  .home-book-btn {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    width:170px;
+    height: 70px;
+    border-radius: 10em;
+    border: 3px solid rgb(0, 0, 0);
+    outline: none;
+    background: #746abd;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  .home-book-btn:hover {
+    background: #c7d9f6;
+    color: black;
+  }
+  
+  .img-home {
+    margin-top: 50px;
+  }
+  
+  .home-heading-small {
+    color: white;
+    font-size: 6em;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: -50px;
+  }
+  
+  @media (min-width: 875px) {
+    .smaller-text {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 875px) {
+    .img-home {
+      display: none;
+    }
+  
+    .parallax-container {
+      display: flex;
+      min-height: 0vh;
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+      /*  this is where the magic happens:  */
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      row-gap: 4rem;
+      text-align: center;
+    }
+    
+    .parallax-container2 {
+      padding: 6rem 0;
+      background-image: url("../img/biology.jpg");
+      gap: 1.6em;
+      
+      width: 100%;
+      height: auto;
+    }
+  
+    .home-subtext {
+      font-size: 2em;
+      color: white;
+      justify-content: left; 
+      margin-top: 35px;
+    }
+  
+    .bigger-text {
+      display: none;
+    }
+  
+    .body {
+      overflow-x:hidden;
+    }
+  
+    .faq-page {
+      margin-top: 200px;
+    }
+  
+  }
+  
+  .faq-page {
+    margin-top: 100px;
+  }
