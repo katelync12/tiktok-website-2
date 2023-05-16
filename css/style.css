@@ -6,6 +6,10 @@ html, body {
     width: 100%;
   }
 
+p {
+    max-width: 100%;
+}
+
 .body {
     background-color: #222433;
     overflow-x: hidden;
@@ -570,6 +574,7 @@ html, body {
     color: white;
     text-decoration: underline;
     text-decoration-color: #c197eb;
+    word-wrap:break-word;
   }
 
   .pdf-link:hover {
