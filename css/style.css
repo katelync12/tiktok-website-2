@@ -553,7 +553,22 @@
   .home-smalltxt {
     margin-top: 15px;
     color: white;
-    font-size: 1.4em;
+    font-size: 1.2em;
+  }
+
+  .words {
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .pdf-link {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #c197eb;
+  }
+
+  .pdf-link:hover {
+    color: #c197eb;
   }
   
   .home-smalllist {
