@@ -592,19 +592,19 @@
   
   .home-heading-small {
     color: white;
-    font-size: 4em;
+    font-size: 6em;
     font-weight: 600;
     position: relative;
     margin-bottom: -50px;
   }
   
-  @media (min-width: 875px) {
+  @media (min-width: 600px) {
     .smaller-text {
       display: none;
     }
   }
   
-  @media (max-width: 875px) {
+  @media (max-width: 600px) {
     .img-home {
       display: none;
     }
