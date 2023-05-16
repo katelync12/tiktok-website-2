@@ -1,3 +1,10 @@
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
 .body {
     background-color: #222433;
     overflow-x: hidden;
@@ -547,18 +554,15 @@
   
   .home-text {
     margin-top: 30px;
-    margin-bottom: 30px;
   }
   
   .home-smalltxt {
     margin-top: 15px;
     color: white;
-    font-size: 1.2em;
   }
 
   .words {
     color: white;
-    font-size: 1.2em;
   }
 
   .pdf-link {
@@ -611,6 +615,10 @@
     font-weight: 600;
     position: relative;
     margin-bottom: -50px;
+  }
+
+  .bottom-margin {
+    margin-bottom: 50px;
   }
   
   @media (min-width: 875px) {
