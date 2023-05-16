@@ -382,6 +382,10 @@ p {
   .bio-image {
     background-image: url("../img/biology.jpg");
   }
+
+  .ap-image {
+    background-image: url("../img/ap-resources.jpg");
+  }
   
   .buffer {
     width: 100%;
@@ -566,6 +570,11 @@ p {
     color: white;
   }
 
+  .home-bigtxt {
+    font-size: 1.3em;
+    margin-top: 30px;
+  }
+
   .words {
     color: white;
   }
@@ -665,6 +674,10 @@ p {
     .bio-image {
         background-image: url("../img/biology.jpg");
     }
+
+    .ap-image {
+        background-image: url("../img/ap-resources.jpg");
+      }
   
     .home-subtext {
       font-size: 2em;
@@ -704,4 +717,12 @@ p {
       background-repeat: no-repeat;
       background-size: contain ;
     }
+  }
+
+  .socials {
+    margin-top: 8px;
+  }
+
+  .socials:hover {
+    color: #c197eb;
   }
