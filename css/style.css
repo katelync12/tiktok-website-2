@@ -835,8 +835,9 @@ p {
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    right: 3%;
-    transform: translate(50%, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
   }
   
   .top:after {
