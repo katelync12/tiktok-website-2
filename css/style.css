@@ -791,4 +791,8 @@ p {
     margin-bottom: 15px;
   }
 
+  .list-color {
+    color: black;
+  }
+
   /* End code for the collapsible */
