@@ -793,6 +793,7 @@ p {
   .collapsible-list {
     margin-top: 15px;
     margin-bottom: 15px;
+    text-decoration: underline;
   }
 
   .list-color {
