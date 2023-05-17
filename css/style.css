@@ -633,6 +633,10 @@ p {
     margin-bottom: -50px;
   }
 
+  .home-heading-padding {
+    margin-top: 10px;
+  }
+
   .bottom-margin {
     margin-bottom: 20px;
   }
