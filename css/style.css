@@ -390,6 +390,10 @@ p {
   .apcsp-image {
     background-image: url("../img/apcsp.jpeg");
   }
+
+  .apes-image {
+    background-image: url("../img/apes.jpg");
+  }
   
   .buffer {
     width: 100%;
@@ -701,6 +705,10 @@ p {
 
     .apcsp-image {
         background-image: url("../img/apcsp.jpeg");
+    }
+
+    .apes-image {
+        background-image: url("../img/apes.jpg");
     }
   
     .home-subtext {
