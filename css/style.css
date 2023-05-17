@@ -645,6 +645,7 @@ p {
     .embed-pdf {
         width: 800px;
         height: 480px;
+        margin-bottom: 30px;
     }
   }
   
@@ -737,3 +738,57 @@ p {
   .socials:hover {
     color: #c197eb;
   }
+
+/* Code for the collapsible */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #e9e7ea;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    width: 90%;
+    border: 1px solid #222433;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: 90%
+  }
+
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .collapsible-bottom {
+    margin-bottom: 50px;
+  }
+
+  .collapsible-list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  /* End code for the collapsible */

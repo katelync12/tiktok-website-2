@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AP Biology</title>
+  <title>AP Resources</title>
 
   <!--Link to the icon library-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,7 +30,7 @@
         <input class="menu-btn" type="checkbox" id="menu-btn">
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
-        <li><a href="index.html" class="link link-theme link-arrow active nav-color">Home</a></li>
+        <li><a href="index.html" class="link link-theme link-arrow nav-color">Home</a></li>
             <li><a href="ap.html" class="link link-theme link-arrow nav-color">AP</a></li>
             <li><a href="sat.html" class="link link-theme link-arrow nav-color">SAT</a></li>
             <li><a href=".ollege_apps.html" class="link link-theme link-arrow nav-color">College Apps</a></li>
@@ -65,12 +65,94 @@
 
             <h3 style="color: rgb(226, 218, 255)">AP Exam Guide</h3>
 
-            <iframe class="embed-pdf" src="https://drive.google.com/file/d/1ya7iuIHlItSIECZ9xh-BQW1gXWtnCbsA/preview" allow="autoplay"></iframe>
+            <iframe class="embed-pdf" src="https://drive.google.com/file/d/1B38bzA-nsjAolUtuxjgP0r87xwhkcgvo/preview" allow="autoplay"></iframe>
+
+            <h3 style="color: rgb(226, 218, 255)">AP Classes</h3>
+        </div>
+
+        <div class="collapsible-bottom">
+            <button type="button" class="collapsible">AP Capstone Diploma Program</button>
+            <div class="content">
+                <ul class="collapsible-list">
+                    <li>AP Research</li>
+                    <li>AP Seminar</li>
+                </ul>
+            </div>
+
+            <button type="button" class="collapsible">Arts</button>
+            <div class="content">
+                <ul class="collapsible-list">
+                    <li>AP 2-D Art and Design</li>
+                    <li>AP 3-D Art and Design</li>
+                    <li>AP Drawing</li>
+                    <li>AP Art History</li>
+                    <li>AP Music Theory</li>
+                </ul>
+            </div>
+
+            <button type="button" class="collapsible">English</button>
+            <div class="content">
+                <ul class="collapsible-list">
+                    <li>AP English Language and Composition</li>
+                    <li>AP English Literature and Composition</li>
+                </ul>
+            </div>
+
+            <button type="button" class="collapsible">History and Social Sciences</button>
+            <div class="content">
+                <ul class="collapsible-list">
+                    <li>AP Comparative Government and Politics</li>
+                    <li>AP European History</li>
+                    <li>AP Human Geography</li>
+                    <li>AP Macroeconomics</li>
+                    <li>AP Microeconomics</li>
+                    <li>AP Psychology</li>
+                    <li>AP United States Government and Politics</li>
+                    <li>AP United States History</li>
+                    <li>AP World History: Modern</li>
+                </ul>
+            </div>
+            
+            <button type="button" class="collapsible">Math and Computer Science</button>
+            <div class="content">
+                <ul class="collapsible-list">
+                    <li>AP Calculus AB</li>
+                    <li>AP Calculus BC</li>
+                    <li>AP Computer Science A</li>
+                    <li>AP Computer Science Principles</li>
+                    <li>AP Precalculus</li>
+                    <li>AP Statistics</li>
+                </ul>
+            </div>
+
+            <button type="button" class="collapsible">Sciences</button>
+            <div class="content">
+                <ul class="collapsible-list">
+                    <li>AP Biology</li>
+                    <li>AP Chemistry</li>
+                    <li>AP Environmental Science</li>
+                    <li>AP Physics 1: Algebra-Based</li>
+                    <li>AP Physics 2: Algebra-Based</li>
+                    <li>AP Physics C: Electricity and Magnetism</li>
+                    <li>AP Physics C: Mechanics</li>
+                </ul>
+            </div>
+
+            <button type="button" class="collapsible">AP World Languages and Cultures</button>
+            <div class="content">
+                <ul class="collapsible-list">
+                    <li>AP Chinese Language and Culture</li>
+                    <li>AP French Language and Culture</li>
+                    <li>AP German Language and Culture</li>
+                    <li>AP Italian Language and Culture</li>
+                    <li>AP Japanese Language and Culture</li>
+                    <li>AP Latin</li>
+                    <li>AP Spanish Language and Culture</li>
+                    <li>AP Spanish Literature and Culture</li>
+                </ul>
+            </div>
         </div>
       </div>
-    </section>
-  
-  </div>
 
     <script>
       /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -82,6 +164,22 @@
           x.className = "topnav";
         }
       }
+
+      /* Creates the collapsible */
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+        content.style.display = "none";
+          } else {
+          content.style.display = "block";
+          }
+      }); 
+    }
     </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
