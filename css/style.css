@@ -386,6 +386,10 @@ p {
   .ap-image {
     background-image: url("../img/ap-resources.jpg");
   }
+
+  .apcsp-image {
+    background-image: url("../img/apcsp.jpeg");
+  }
   
   .buffer {
     width: 100%;
@@ -693,7 +697,11 @@ p {
 
     .ap-image {
         background-image: url("../img/ap-resources.jpg");
-      }
+    }
+
+    .apcsp-image {
+        background-image: url("../img/apcsp.jpeg");
+    }
   
     .home-subtext {
       font-size: 2em;
@@ -798,6 +806,12 @@ p {
 
   .list-color {
     color: black;
+  }
+
+  .list-color:hover {
+    color: #8b54c2;
+    text-decoration: underline;
+    text-decoration-color: #8b54c2;
   }
 
   /* End code for the collapsible */
