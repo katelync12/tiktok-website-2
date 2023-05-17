@@ -822,4 +822,35 @@ p {
     text-decoration-color: #8b54c2;
   }
 
-  /* End code for the collapsible */
+/* End code for the collapsible */
+
+/* style going up button */
+  
+
+  .top {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    border: 0.2em solid #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translate(50%, -50%);
+  }
+  
+  .top:after {
+    content: '';
+    display: inline-block;
+    margin-top: 1em;
+    width: 1.4em;
+    height: 1.4em;
+    border-top: 0.4em solid #333;
+    border-right: 0.4em solid #333;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+
+/*end styling going up button */
