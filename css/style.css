@@ -641,11 +641,21 @@ p {
     .smaller-text {
       display: none;
     }
+    
+    .embed-pdf {
+        width: 800px;
+        height: 480px;
+    }
   }
   
   @media (max-width: 875px) {
     .img-home {
       display: none;
+    }
+
+    .embed-pdf {
+        width: 100%;
+        height: 300px;
     }
   
     .parallax-container {
