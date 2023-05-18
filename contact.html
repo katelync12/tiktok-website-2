@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+
+  <!--Link to the icon library-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!--Links to fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto&display=swap" rel="stylesheet">
+
+  <!--Link to style sheet-->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="body">
+
+    <nav class="header background-nav full-width-div sticky-top">
+        <a class="logo" href="index.html">@math.tutor0</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+        <li><a href="index.html" class="link link-theme link-arrow nav-color">Home</a></li>
+            <li><a href="ap.html" class="link link-theme link-arrow nav-color">AP</a></li>
+            <li><a href="sat.html" class="link link-theme link-arrow nav-color">SAT</a></li>
+            <li><a href="act.html" class="link link-theme link-arrow nav-color">ACT</a></li>
+            <li><a href="college_apps.html" class="link link-theme link-arrow nav-color">College Apps</a></li>
+            <li><a href="tutoring.html" class="link link-theme link-arrow nav-color">Tutoring</a></li>
+            <li><a href="contact.html" class="link link-theme link-arrow nav-color">Contact Me</a></li>
+            <li><a href="https://www.tiktok.com/@math.tutor0" target="_blank" rel="noopener noreferrer" class="fa-brands fa-tiktok socials"></a></li>
+            <li><a href="https://www.instagram.com/math.tutor0/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram socials"></a></li>
+        </ul>
+    </nav>
+  
+
+  <div class="container container2" id="contact-form">
+    <form target="_blank" action="https://formsubmit.co/hii543543@gmail.com" method="POST">
+        <p>The fastest way to contact me is through my Instagram @math.tutor0 where you can DM me (preferred method). If you want to contact me via email, please fill out this form below.</p>
+
+        <label for="email" id="contact-title">Email</label>
+        <input type="email" name="email" class="form-control" id="fname" name="firstname" placeholder="example@email.com" required>
+
+        <label for="fname" id="contact-title">First Name</label>
+        <input type="text" class="form-control" id="fname" name="firstname" placeholder="" required>
+    
+        <label for="lname" id="contact-title">Last Name</label>
+        <input type="text" class="form-control" id="lname" name="lastname" placeholder="" required>
+        
+        <label for="subject" id="contact-title">Message</label>
+        <textarea type="email" name="subject" class="form-control" id="subject" placeholder="" style="height:200px" required></textarea>
+
+        <input type="hidden" name="_autoresponse" value="Thank you for submitting a contact us form! We will get back to you as soon as possible. Here is a copy of your response.">
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+  </div>
+
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
