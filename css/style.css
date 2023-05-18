@@ -403,6 +403,10 @@ p {
     background-image: url("../img/apush.jpg");
   }
 
+  .apwh-image {
+    background-image: url("../img/apwh.jpg");
+  }
+
   .home-image {
     background-image: url("../img/home.jpg");
   }
@@ -730,6 +734,10 @@ p {
 
     .apush-image {
       background-image: url("../img/apush.jpg");
+    }
+
+    .apwh-image {
+      background-image: url("../img/apwh.jpg");
     }
 
     .home-image {
