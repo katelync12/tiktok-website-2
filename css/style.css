@@ -415,6 +415,11 @@ p {
     background-image: url("../img/calcbc.jpg");
   }
 
+  .chem-image {
+    background-image: url("../img/chem.jpg");
+  }
+
+
   .home-image {
     background-image: url("../img/home.jpg");
   }
@@ -754,6 +759,10 @@ p {
   
     .calc-bc-image {
       background-image: url("../img/calcbc.jpg");
+    }
+
+    .chem-image {
+      background-image: url("../img/chem.jpg");
     }
 
     .home-image {
