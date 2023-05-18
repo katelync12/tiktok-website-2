@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
+  <title>AP Resources</title>
 
   <!--Link to the icon library-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,6 +19,9 @@
 
   <!--Link to style sheet-->
   <link href="css/style.css" rel="stylesheet">
+
+  <!--Link to icons library-->
+  <script src="https://kit.fontawesome.com/302b5ed093.js" crossorigin="anonymous"></script>
 </head>
 <body class="body">
 
@@ -38,30 +41,37 @@
             <li><a href="https://www.instagram.com/math.tutor0/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram socials"></a></li>
         </ul>
     </nav>
-  
 
-  <div class="container container2" id="contact-form">
-    <form target="_blank" action="https://formsubmit.co/hii543543@gmail.com" method="POST">
-        <p>The fastest way to contact me is through my Instagram @math.tutor0 where you can DM me (preferred method). If you want to contact me via email, please fill out this form below. This is also how you contact me if you would like to start tutoring (specific information can be found in the <a href="tutoring.html" class="list-color add-underline">tutoring page</a>).</p>
 
-        <label for="email" id="contact-title">Email</label>
-        <input type="email" name="email" class="form-control" id="fname" name="firstname" placeholder="example@email.com" required>
+    <section class="buffer">
+      <div class="container bottom-margin">
+        <div class="col-md-12 home-text">
 
-        <label for="fname" id="contact-title">First Name</label>
-        <input type="text" class="form-control" id="fname" name="firstname" placeholder="" required>
+        </div>
+      </div>
+
+      <div class="container container2" id="contact-form">
+        <form target="_blank" action="https://formsubmit.co/hii543543@gmail.com" method="POST">
+            <p>The fastest way to contact me is through my Instagram @math.tutor0 where you can DM me (preferred method). If you want to contact me via email, please fill out this form below. This is also how you contact me if you would like to start tutoring (specific information can be found in the <a href="tutoring.html" class="list-color add-underline">tutoring page</a>).</p>
     
-        <label for="lname" id="contact-title">Last Name</label>
-        <input type="text" class="form-control" id="lname" name="lastname" placeholder="" required>
+            <label for="email" id="contact-title">Email</label>
+            <input type="email" name="email" class="form-control" id="fname" name="firstname" placeholder="example@email.com" required>
+    
+            <label for="fname" id="contact-title">First Name</label>
+            <input type="text" class="form-control" id="fname" name="firstname" placeholder="" required>
         
-        <label for="subject" id="contact-title">Message</label>
-        <textarea type="email" name="subject" class="form-control" id="subject" placeholder="" style="height:200px" required></textarea>
-
-        <input type="hidden" name="_autoresponse" value="Thank you for submitting a contact us form! We will get back to you as soon as possible. Here is a copy of your response.">
+            <label for="lname" id="contact-title">Last Name</label>
+            <input type="text" class="form-control" id="lname" name="lastname" placeholder="" required>
+            
+            <label for="subject" id="contact-title">Message</label>
+            <textarea type="email" name="subject" class="form-control" id="subject" placeholder="" style="height:200px" required></textarea>
     
-        <input type="submit" value="Submit">
-    
-      </form>
-  </div>
+            <input type="hidden" name="_autoresponse" value="Thank you for submitting a contact us form! We will get back to you as soon as possible. Here is a copy of your response.">
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+      </div>
 
     <script>
       /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -73,6 +83,42 @@
           x.className = "topnav";
         }
       }
+
+      /* Creates the collapsible */
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+        content.style.display = "none";
+          } else {
+          content.style.display = "block";
+          }
+      }); 
+    }
+
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
     </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
