@@ -407,6 +407,14 @@ p {
     background-image: url("../img/apwh.jpg");
   }
 
+  .calc-ab-image {
+    background-image: url("../img/calcab.jpg");
+  }
+
+  .calc-bc-image {
+    background-image: url("../img/calcbc.jpg");
+  }
+
   .home-image {
     background-image: url("../img/home.jpg");
   }
@@ -740,6 +748,14 @@ p {
       background-image: url("../img/apwh.jpg");
     }
 
+    .calc-ab-image {
+      background-image: url("../img/calcab.jpg");
+    }
+  
+    .calc-bc-image {
+      background-image: url("../img/calcbc.jpg");
+    }
+
     .home-image {
         background-image: url("../img/home.jpg");
       }
@@ -978,4 +994,4 @@ p {
     font-size: 1.5em;
 }
 
-    /* end card styling */
+/* end card styling */
