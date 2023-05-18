@@ -1004,3 +1004,7 @@ p {
 }
 
 /* end card styling */
+
+.add-underline {
+  text-decoration: underline;
+}
