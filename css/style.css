@@ -395,6 +395,10 @@ p {
     background-image: url("../img/apes.jpg");
   }
 
+  .aphug-image {
+    background-image: url("../img/aphug.jpg");
+  }
+
   .home-image {
     background-image: url("../img/home.jpg");
   }
@@ -714,6 +718,10 @@ p {
 
     .apes-image {
         background-image: url("../img/apes.jpg");
+    }
+
+    .aphug-image {
+      background-image: url("../img/aphug.jpg");
     }
 
     .home-image {
