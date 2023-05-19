@@ -423,6 +423,10 @@ p {
   .home-image {
     background-image: url("../img/home.jpg");
   }
+
+  .tutoring-image {
+    background-image: url("../img/tutoring.jpg");
+  }
   
   .buffer {
     width: 100%;
@@ -767,7 +771,11 @@ p {
 
     .home-image {
         background-image: url("../img/home.jpg");
-      }
+    }
+
+    .tutoring-image {
+      background-image: url("../img/tutoring.jpg");
+    }
   
     .home-subtext {
       font-size: 2em;
