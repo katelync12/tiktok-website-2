@@ -870,6 +870,11 @@ p {
     text-decoration: underline;
   }
 
+  .collapsible-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
   .list-color {
     color: black;
   }
@@ -1007,4 +1012,10 @@ p {
 
 .add-underline {
   text-decoration: underline;
+}
+
+.add-underline:hover {
+  text-decoration-color: #c197eb;
+  text-decoration: underline;
+  color: #c197eb;
 }
