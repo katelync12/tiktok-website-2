@@ -419,6 +419,10 @@ p {
     background-image: url("../img/chem.jpg");
   }
 
+  .college-apps-image {
+    background-image: url("../img/college_apps.jpg");
+  }
+
 
   .home-image {
     background-image: url("../img/home.jpg");
@@ -767,6 +771,10 @@ p {
 
     .chem-image {
       background-image: url("../img/chem.jpg");
+    }
+
+    .college-apps-image {
+      background-image: url("../img/college_apps.jpg");
     }
 
     .home-image {

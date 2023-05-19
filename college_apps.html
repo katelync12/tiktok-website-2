@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Apps</title>
+
+  <!--Link to the icon library-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!--Links to fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto&display=swap" rel="stylesheet">
+
+  <!--Link to style sheet-->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Link to icons library-->
+  <script src="https://kit.fontawesome.com/302b5ed093.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+
+    <nav class="header background-nav full-width-div sticky-top">
+        <a class="logo" href="index.html">@math.tutor0</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+        <li><a href="index.html" class="link link-theme link-arrow nav-color">Home</a></li>
+            <li><a href="ap.html" class="link link-theme link-arrow nav-color">AP</a></li>
+            <li><a href="sat.html" class="link link-theme link-arrow nav-color">SAT</a></li>
+            <li><a href="act.html" class="link link-theme link-arrow nav-color">ACT</a></li>
+            <li><a href="college_apps.html" class="link link-theme link-arrow nav-color">College Apps</a></li>
+            <li><a href="tutoring.html" class="link link-theme link-arrow nav-color">Tutoring</a></li>
+            <li><a href="contact.html" class="link link-theme link-arrow nav-color">Contact Me</a></li>
+            <li><a href="https://www.tiktok.com/@math.tutor0" target="_blank" rel="noopener noreferrer" class="fa-brands fa-tiktok socials"></a></li>
+            <li><a href="https://www.instagram.com/math.tutor0/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram socials"></a></li>
+        </ul>
+    </nav>
+
+  <div id="picblock">
+    <div class="parallax-container parallax-container2 college-apps-image">
+      <div class="row">
+        <div class="col-md-12 bigger-text">
+          <p class="home-heading">
+            College Apps
+          </p>
+        </div>
+        <div class="col-md-12 smaller-text">
+          <p class="home-heading-small">
+            College
+          </p>
+          <p class="home-heading-small home-heading-padding">Apps</p>
+        </div>
+      </div>
+    </div>
+    <section class="buffer">
+      <div class="container bottom-margin">
+        <div class="row first-row">
+          <div class="col-md-12 home-text">
+            <h3 style="color: rgb(226, 218, 255)">Free Sample College Essays</h3>
+            <p class = "home-smalltxt">These are the common app and supplemental essays that I wrote for my college application process. All these essays are for schools I got into (major computer science).</p>
+
+            <p class = "words">Here's the link to the google drive: <a href="https://drive.google.com/drive/folders/1JZKJpXupjwdpBzLEwei5yDw3BL6AyDZK" target="_blank" rel="noopener noreferrer" class = "pdf-link">https://drive.google.com/drive/folders/1JZKJpXupjwdpBzLEwei5yDw3BL6AyDZK</a></p>
+          </div>
+
+          <div class="col-md-12 home-text">
+            <h3 style="color: rgb(226, 218, 255)">Essay Editing</h3>
+
+            <p class = "home-smalltxt">Interested in having me edit/look over your essay? If you're interested, DM my instagram @math.tutor0 or visit the <a href="contact.html" class="add-underline">contact me page</a> for more ways to reach me.<br>Pricing:</p>
+
+            <ul class = "words">
+                <li>$20 for advice on the common app essay</li>
+                <li>For supplementals, $5/150 words with a minimum of $5.</li>
+                <li>If you're interested having me look at more essays, we can negotiate pricing.</li>
+            </ul>
+
+            <p class = "home-smalltxt">This will be overall advice on what changes to make on the essay and how to improve it. This will not be an in-depth grammar check.</p>
+          </div>
+
+          <div class="col-md-12 home-text">
+            <h3 style="color: rgb(226, 218, 255)">College Advice</h3>
+
+            <p class = "home-smalltxt">Interested in getting advice about college apps? Advice about AP classes? Advice about standardized testing? Any questions you may have that are academic related? If you're interested, DM my instagram @math.tutor0 or visit the <a href="contact.html" class="add-underline">contact me page</a> for more ways to reach me.<br>Pricing:</p>
+
+            <ul class = "words">
+                <li>$20 for a 30 minute zoom call</li>
+            </ul>
+          </div>
+
+          <div class="col-md-12 home-text text-center">
+            <button onclick="topFunction()" id="myBtn" class="top" title="Go to top"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  </div>
+
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+
+      // Get the button:
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
