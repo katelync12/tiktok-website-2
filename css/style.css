@@ -419,6 +419,26 @@ p {
     background-image: url("../img/chem.jpg");
   }
 
+  .gov-image {
+    background-image: url("../img/gov.jpg");
+  }
+
+  .lang-image {
+    background-image: url("../img/lang.jpg");
+  }
+
+  .lit-image {
+    background-image: url("../img/lit.jpg");
+  }
+
+  .macro-image {
+    background-image: url("../img/macro.jpg");
+  }
+
+  .micro-image {
+    background-image: url("../img/micro.jpg");
+  }
+
   .college-apps-image {
     background-image: url("../img/college_apps.jpg");
   }
@@ -771,6 +791,26 @@ p {
 
     .chem-image {
       background-image: url("../img/chem.jpg");
+    }
+
+    .gov-image {
+      background-image: url("../img/gov.jpg");
+    }
+
+    .lang-image {
+      background-image: url("../img/lang.jpg");
+    }
+
+    .lit-image {
+      background-image: url("../img/lit.jpg");
+    }
+
+    .macro-image {
+      background-image: url("../img/macro.jpg");
+    }
+
+    .micro-image {
+      background-image: url("../img/micro.jpg");
     }
 
     .college-apps-image {
