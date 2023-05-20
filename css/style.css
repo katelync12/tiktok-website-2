@@ -484,6 +484,14 @@ p {
     background-image: url("../img/home.jpg");
   }
 
+  .act-image {
+    background-image: url("../img/act.png");
+  }
+
+  .sat-image {
+    background-image: url("../img/sat.jpg");
+  }
+
   .tutoring-image {
     background-image: url("../img/tutoring.jpg");
   }
@@ -891,6 +899,14 @@ p {
 
     .home-image {
         background-image: url("../img/home.jpg");
+    }
+
+    .act-image {
+      background-image: url("../img/act.png");
+    }
+  
+    .sat-image {
+      background-image: url("../img/sat.jpg");
     }
 
     .tutoring-image {
