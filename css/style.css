@@ -439,6 +439,38 @@ p {
     background-image: url("../img/micro.jpg");
   }
 
+  .psych-image {
+    background-image: url("../img/psych.png");
+  }
+
+  .e-and-m-image {
+    background-image: url("../img/e_and_m.jpg");
+  }
+
+  .mechanics-image {
+    background-image: url("../img/mechanics.jpg");
+  }
+
+  .physics1-image {
+    background-image: url("../img/physics1.jpg");
+  }
+
+  .physics2-image {
+    background-image: url("../img/physics2.jpeg");
+  }
+
+  .apcsa-image {
+    background-image: url("../img/apcsa.jpg");
+  }
+
+  .precalc-image {
+    background-image: url("../img/precalc.jpg");
+  }
+
+  .stats-image {
+    background-image: url("../img/stats.jpg");
+  }
+
   .college-apps-image {
     background-image: url("../img/college_apps.jpg");
   }
@@ -811,6 +843,38 @@ p {
 
     .micro-image {
       background-image: url("../img/micro.jpg");
+    }
+
+    .psych-image {
+      background-image: url("../img/psych.png");
+    }
+
+    .e-and-m-image {
+      background-image: url("../img/e_and_m.jpg");
+    }
+  
+    .mechanics-image {
+      background-image: url("../img/mechanics.jpg");
+    }
+  
+    .physics1-image {
+      background-image: url("../img/physics1.jpg");
+    }
+  
+    .physics2-image {
+      background-image: url("../img/physics2.jpeg");
+    }
+
+    .apcsa-image {
+      background-image: url("../img/apcsa.jpg");
+    }
+
+    .precalc-image {
+      background-image: url("../img/precalc.jpg");
+    }
+
+    .stats-image {
+      background-image: url("../img/stats.jpg");
     }
 
     .college-apps-image {
