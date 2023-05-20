@@ -471,6 +471,10 @@ p {
     background-image: url("../img/stats.jpg");
   }
 
+  .euro-image {
+    background-image: url("../img/euro.jpg");
+  }
+
   .college-apps-image {
     background-image: url("../img/college_apps.jpg");
   }
@@ -875,6 +879,10 @@ p {
 
     .stats-image {
       background-image: url("../img/stats.jpg");
+    }
+
+    .euro-image {
+      background-image: url("../img/euro.jpg");
     }
 
     .college-apps-image {
