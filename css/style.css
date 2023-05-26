@@ -443,6 +443,10 @@ p {
     background-image: url("../img/micro.jpg");
   }
 
+  .music-image {
+    background-image: url("../img/music.jpg");
+  }
+
   .psych-image {
     background-image: url("../img/psych.png");
   }
@@ -859,6 +863,10 @@ p {
 
     .micro-image {
       background-image: url("../img/micro.jpg");
+    }
+
+    .music-image {
+      background-image: url("../img/music.jpg");
     }
 
     .psych-image {
