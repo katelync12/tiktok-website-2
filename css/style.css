@@ -411,6 +411,10 @@ p {
     background-image: url("../img/apwh.jpg");
   }
 
+  .art-history-image {
+    background-image: url("../img/art_history.jpg");
+  }
+
   .calc-ab-image {
     background-image: url("../img/calcab.jpg");
   }
@@ -831,6 +835,10 @@ p {
 
     .apwh-image {
       background-image: url("../img/apwh.jpg");
+    }
+
+    .art-history-image {
+      background-image: url("../img/art_history.jpg");
     }
 
     .calc-ab-image {
