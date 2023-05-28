@@ -383,6 +383,18 @@ p {
     height: auto;
   }
 
+  .art-image {
+    background-image: url("../img/art.jpg");
+  }
+
+  .two-d {
+    background-image: url("../img/2_d.jpg");
+  }
+
+  .three-d {
+    background-image: url("../img/3_d.jpg");
+  }
+
   .bio-image {
     background-image: url("../img/biology.jpg");
   }
@@ -815,6 +827,18 @@ p {
       gap: 1.6em;
       width: 100%;
       height: auto;
+    }
+
+    .art-image {
+      background-image: url("../img/art.jpg");
+    }
+  
+    .two-d {
+      background-image: url("../img/2_d.jpg");
+    }
+  
+    .three-d {
+      background-image: url("../img/3_d.jpg");
     }
 
     .bio-image {
