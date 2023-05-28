@@ -475,6 +475,10 @@ p {
     background-image: url("../img/research.jpg");
   }
 
+  .seminar-image {
+    background-image: url("../img/seminar.jpeg");
+  }
+
   .apcsa-image {
     background-image: url("../img/apcsa.jpg");
   }
@@ -903,6 +907,10 @@ p {
 
     .research-image {
       background-image: url("../img/research.jpg");
+    }
+
+    .seminar-image {
+      background-image: url("../img/seminar.jpeg");
     }
 
     .apcsa-image {
