@@ -507,6 +507,38 @@ p {
     background-image: url("../img/euro.jpg");
   }
 
+  .chinese-image {
+    background-image: url("../img/chinese.jpg");
+  }
+
+  .french-image {
+    background-image: url("../img/french.png");
+  }
+  
+  .german-image {
+    background-image: url("../img/german.jpg");
+  }
+
+  .italian-image {
+    background-image: url("../img/italian.jpg");
+  }
+
+  .japanese-image {
+    background-image: url("../img/japanese.jpg");
+  }
+
+  .latin-image {
+    background-image: url("../img/latin.jpg");
+  }
+
+  .spanish-lang-image {
+    background-image: url("../img/spanish1.jpg");
+  }
+
+  .spanish-lit-image {
+    background-image: url("../img/spanish2.jpg");
+  }
+
   .college-apps-image {
     background-image: url("../img/college_apps.jpg");
   }
@@ -951,6 +983,38 @@ p {
 
     .euro-image {
       background-image: url("../img/euro.jpg");
+    }
+
+    .chinese-image {
+      background-image: url("../img/chinese.jpg");
+    }
+  
+    .french-image {
+      background-image: url("../img/french.png");
+    }
+    
+    .german-image {
+      background-image: url("../img/german.jpg");
+    }
+  
+    .italian-image {
+      background-image: url("../img/italian.jpg");
+    }
+  
+    .japanese-image {
+      background-image: url("../img/japanese.jpg");
+    }
+  
+    .latin-image {
+      background-image: url("../img/latin.jpg");
+    }
+  
+    .spanish-lang-image {
+      background-image: url("../img/spanish1.jpg");
+    }
+  
+    .spanish-lit-image {
+      background-image: url("../img/spanish2.jpg");
     }
 
     .college-apps-image {
